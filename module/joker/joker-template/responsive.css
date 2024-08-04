@@ -1,0 +1,193 @@
+@media only screen and (max-width: 480px)  {
+    .relativePos, .btnTopmenu, .iconRank, .topPro, .fireHot, .titleCenter {
+        display: none;
+    }
+    body {
+        margin-bottom: 79px;
+    }
+    .iconUserGold {
+        display: inline-block;
+        width: 40px;
+    }
+    .userTop {
+        display: block;
+        text-align: right;
+        font-size: 14px;
+        font-weight: 300;
+        padding-top: 10px;
+        color: #ffffff;
+    }
+
+    .verBottom {
+        vertical-align: bottom;
+    }
+    .logoTop {
+        width: 195px;
+        mix-blend-mode: screen;
+    }
+    .newsLine img {
+        width: 320px;
+    }
+    .textMenu {
+        padding: 5px 0px;
+        text-align: center;
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        -webkit-border-top-right-radius: 0px;
+        -moz-border-radius-topright: 0px;
+        border-top-right-radius: 0px;
+    }
+    .itemMenu {
+        text-align: center;
+    }
+    .menuline1 {
+        display: block;
+        line-height: 14px;
+        text-transform: uppercase;
+        padding: 0px 0 0 0;
+        font-size: 12px;
+    }
+    .menuline2 {
+        padding-left: 0;
+        font-size: 12px;
+        line-height: 10px;
+        display: block;
+    }
+    .owl-carousel img {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        border: 2px solid #b27919;
+    }
+    .iconFronttitle {
+        width: 50px;
+    }
+    .goldText {
+        font-size: 20px;
+        padding-left: 16px;
+    }
+    .iconFire {
+        width: 100px;
+        position: absolute;
+        z-index: -1;
+        top: -32px;
+        left: 2px;
+    }
+    .menuLeft img {
+        width: 38px;
+        margin: 10px 0 2px 0;
+        height: auto;
+    }
+    .gameList span {
+        font-size: 14px;
+        display: block;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        line-height: 14px;
+    }
+    .texttitleFooter1 {
+        text-align: center;
+    }
+    .texttitleFooter2 {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .tagsFooter {
+        margin-bottom: 20px;
+    }
+    .partnership {
+        text-align: center;
+    }
+    .titleMtop {
+        margin-top: 16px;
+    }
+    .titleMtop2 {
+        margin-top: 40px;
+    }
+    .topNav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-image: url(../images/bg-topnav.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .righBox {
+        margin-bottom: 10px;
+    }
+    .menuBottom {
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        left: 0;
+        z-index: 4;
+        display: block;
+        background-color: #000;
+        background-image: url(../../assets/background/bg-bottom.jpeg);
+        background-repeat: no-repeat;
+        -webkit-box-shadow: 0px -4px 18px 3px rgba(0,0,0,1.0);
+        -moz-box-shadow: 0px -4px 18px 3px rgba(0,0,0,1.0);
+        box-shadow: 0px -4px 18px 3px rgba(0,0,0,1.0);
+    }
+    .m1, .m2, .m3, .m4, .m5 {
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+    .mWarper {
+        display: flex;
+        align-items: flex-end;
+    }
+    .menubm {
+        display: block;
+        padding: 7px 10px;
+        position: relative;
+        text-align: center;
+        font-size: 3.5vmin;
+    }
+    .menubm span {
+        display: block;
+        color: #f2d178;
+    }
+    .bggoldmenu {
+        height: 4px;
+        background: rgb(176,117,21);
+        background: linear-gradient(-45deg, rgba(176,117,21,1) 0%, rgba(245,215,127,1) 46%, rgba(176,117,21,1) 100%);
+    }
+    .iconMain {
+        width: 85px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: -68px;
+    }
+    .lgBanner span {
+        font-size: 16px;
+    }
+    .titleCenterText {
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        padding-top: 0;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .soonIcon {
+        position: absolute;
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 36px;
+    }
+    .bgLogin {
+        background-position: revert;
+    }
+
+
+}

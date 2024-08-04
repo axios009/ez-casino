@@ -1,5 +1,12 @@
 {
     "require": {
-        "slim/slim": "3.*"
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.4",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+        "laminas/laminas-diactoros": "^2.6",
+        "guzzlehttp/psr7": "^2.0",
+        "slim/php-view": "^3.2",
+        "selective/basepath": "^2.0"
     }
 }
